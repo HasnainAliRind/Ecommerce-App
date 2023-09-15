@@ -1,9 +1,13 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { setCurrentCategory } from '../../Redux/Slice';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 function CategorySectionPhone() {
+    let currentCategory = useSelector(state=>state.appstate.currentCategory);
+
     let category =
         [
             'Shirt', 'Gaget',
@@ -42,14 +46,17 @@ function CategorySectionPhone() {
             items: 2
         }
     };
+    let dispatch = useDispatch();
     return (
         <div className='CategorySectionPhone'>
             <h2>Categories</h2>
             <div className='categories'>
             <Carousel responsive={responsive}>
                 {
-                    category.map((cat) => {
-                        return <button className='category' key={cat}>{cat}</button>
+                    category.map((cat, index) => {
+                        return <button className={index===currentCategory.index ? "active" : "category"} key={cat} onClick={()=>{
+                            dispatch(setCurrentCategory({index , category: cat}))
+                        }}>{cat}</button>
                     })
                 }
             </Carousel>
