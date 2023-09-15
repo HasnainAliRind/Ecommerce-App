@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #647df9;
+}
+ .table{
+  background: #fff;
+  width: 300px;
+  padding: 30px 30px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.table .Image{
+  overflow: hidden;
+  margin-top: 35px;
+}
+.table img{
+  width: 100%;
+}
+
+.table .ribbon{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  overflow: hidden;
+}
+.table .ribbon::before,
+.table .ribbon::after{
+  position: absolute;
+  content: "";
+  z-index: -1;
+  display: block;
+  border: 7px solid #d11351;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.table .ribbon::before{
+  top: 0px;
+  right: 15px;
+}
+.table .ribbon::after{
+  bottom: 15px;
+  left: 0px;
+}
+.table .buttons{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.table .buttons button{
+  cursor: pointer;
+  border: 2px solid #ff0b5b;
+  padding: 5px 15px;
+}
+.table .buttons .buy{
+  color: #d11351;
+  background: none;
+}
+.table .buttons .buy:hover{
+  background-color: #ff0b5b;
+  color: #fff;
+}
+.table .buttons .cart{
+  background-color: #ff0b5b;
+  color: white;
+}
+.table .buttons .cart:hover{
+  background-color: #fff;
+  color: #ff0b5b;
+}
+.table .ribbon span{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: rotate(-45deg);
+  width: 200px;
+  background: #ff0b5b;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}

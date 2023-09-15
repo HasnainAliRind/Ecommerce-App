@@ -1,0 +1,217 @@
+@media only screen and (max-width:1100px){
+
+   
+    .header_content .image{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .Navbar .SearchBar{
+        width: 251px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .Navbar{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .Navbar .SearchBar .search{
+        width: 100%;
+    }
+    .SearchBar .search button{
+        display: none;
+    }
+    .Navbar .SearchBar .search input{
+        border-radius: 9px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .AllProductsSection{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .AllProductsSection .CategorySide{
+        height: fit-content;
+        display: none;
+    }
+    .AllProductsSection .CategorySectionPhone{
+        display: flex;
+        flex-direction: column;
+        grid-area: 20px;
+    }
+    .CategorySide .categories{
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+    .CategorySide .categories::-webkit-scrollbar{
+        display: none;
+    }
+    .categories li{
+        width: fit-content;
+    }
+    .cartItem .image {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Navbar .logo {
+        font-size: 20px;
+    }
+    .Navbar{
+        justify-content: space-between;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .Navbar .Menus a.homeBTN , .Navbar .Menus a.cartBTN{
+        display: none;
+    }
+    .header_content .content {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 630px){
+    .App{
+        padding: 0;
+    }
+    .specific_product::-webkit-scrollbar {
+        display: none;
+    }
+    .specific_product .card .card__footer::before {
+        width: calc(100% - 100px);
+    }
+}
+@media only screen and (max-width: 550px) {
+    .sidebar .menus .searchbar{
+        display: block;
+    }
+    .Navbar .SearchBar{
+        display: none;
+    }
+    .App{
+        padding: 0;
+    }
+    .Navbar .logo{
+        font-size: 25px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .Navbar .Menus li{
+        font-size: 25px;
+    }
+    .cart .cartproducts{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cartproducts .cartItem {
+        flex-direction: column;
+        height: -moz-fit-content;
+        height: 150px;
+        width: 100px;
+        
+    }
+    .cart_item_editor .Editing_Box{
+        width: fit-content;
+        
+    }
+    .cart .price{
+        padding: 10px;
+        width: 100%;
+    }
+    .cart .price .before_price{
+        display: none;
+    }
+    .cartItem .information{
+        display: none;
+    }
+    .cart .others{
+        width: 100%;
+    }
+    .cart .others button{
+        width: 100%;
+        text-align: center;
+    }
+    .cartItem .image{
+        
+            width: fit-content;
+            max-width: 100%;
+        
+    }
+    .cartItem .image img{
+        width: fit-content;
+        max-width: 100%;
+        max-width: 70px;
+    }
+    .specific_product .card .card__body .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .specific_product .card .card__body {
+        flex-direction: column;
+        padding: 0;
+        gap: 30px;
+    }
+    
+    .card__body .half .featured_text{
+        text-align: center;
+    }
+    .specific_product .card .card__footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .specific_product .card .card__title h3{
+        display: none;
+    }
+    .specific_product .card .card__title {
+        padding: 30px 10px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .content p {
+        font-size: 28px;
+    }
+    .header .header_content{
+        border-radius: 0;
+    }
+    .specific_product .card .card__footer::before {
+        width: calc(100% - 70px);
+    }
+    .specific_product .card .card__footer .action {
+        flex-direction: column;
+        width: 100%;
+    }
+    .specific_product .card .card__footer .action button {
+        width: 100%;
+    }
+    .specific_product .card .card__footer .action button a{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 380px){
+    .Editing_Box .count{
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .Navbar .logo {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 20px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .header_content .image{
+        display: none;
+    }
+}

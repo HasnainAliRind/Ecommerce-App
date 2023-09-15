@@ -1,0 +1,343 @@
+{
+    "statusCode": "200",
+    "product": [
+      {
+        "reviewSummary": {
+          "reviewWithMostVotes": null,
+          "reviewWithLeastVotes": null,
+          "totalCriticalReviews": "0",
+          "totalFavorableReviews": "0",
+          "totalReviews": "0",
+          "totalReviewScore": null,
+          "averageOverallRating": "0",
+          "comfortRating": {},
+          "overallRating": {},
+          "lookRating": {},
+          "archRatingCounts": {},
+          "overallRatingCounts": {},
+          "sizeRatingCounts": {},
+          "widthRatingCounts": {},
+          "archRatingPercentages": null,
+          "overallRatingPercentages": {},
+          "sizeRatingPercentages": null,
+          "widthRatingPercentages": null,
+          "maxArchRatingPercentage": null,
+          "maxOverallRatingPercentage": {
+            "percentage": "0",
+            "text": null
+          },
+          "maxSizeRatingPercentage": null,
+          "maxWidthRatingPercentage": null,
+          "reviewingAShoe": "false",
+          "hasFitRatings": "false"
+        },
+        "sizing": {
+          "allUnits": [
+            {
+              "id": "59561",
+              "name": "Men's Alpha Bottom Size",
+              "rank": "1",
+              "values": [
+                {
+                  "id": "82253",
+                  "rank": "700",
+                  "value": "SM"
+                },
+                {
+                  "id": "82254",
+                  "rank": "1000",
+                  "value": "MD"
+                },
+                {
+                  "id": "82255",
+                  "rank": "1399",
+                  "value": "LG"
+                },
+                {
+                  "id": "82256",
+                  "rank": "1799",
+                  "value": "XL"
+                },
+                {
+                  "id": "82257",
+                  "rank": "2199",
+                  "value": "2XL"
+                }
+              ]
+            }
+          ],
+          "allValues": [
+            {
+              "id": "82253",
+              "rank": "700",
+              "value": "SM"
+            },
+            {
+              "id": "82254",
+              "rank": "1000",
+              "value": "MD"
+            },
+            {
+              "id": "82255",
+              "rank": "1399",
+              "value": "LG"
+            },
+            {
+              "id": "82256",
+              "rank": "1799",
+              "value": "XL"
+            },
+            {
+              "id": "82257",
+              "rank": "2199",
+              "value": "2XL"
+            }
+          ],
+          "dimensionsSet": [
+            "d15"
+          ],
+          "dimensions": [
+            {
+              "id": "15",
+              "rank": "1",
+              "name": "size",
+              "units": [
+                {
+                  "id": "59561",
+                  "name": "Men's Alpha Bottom Size",
+                  "rank": "1",
+                  "values": [
+                    {
+                      "id": "82253",
+                      "rank": "700",
+                      "value": "SM"
+                    },
+                    {
+                      "id": "82254",
+                      "rank": "1000",
+                      "value": "MD"
+                    },
+                    {
+                      "id": "82255",
+                      "rank": "1399",
+                      "value": "LG"
+                    },
+                    {
+                      "id": "82256",
+                      "rank": "1799",
+                      "value": "XL"
+                    },
+                    {
+                      "id": "82257",
+                      "rank": "2199",
+                      "value": "2XL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "stockData": [
+            {
+              "id": "45398465",
+              "color": "2189",
+              "onHand": "0",
+              "d15": "82255"
+            },
+            {
+              "id": "45398466",
+              "color": "2189",
+              "onHand": "0",
+              "d15": "82254"
+            },
+            {
+              "id": "45398467",
+              "color": "2189",
+              "onHand": "0",
+              "d15": "82253"
+            },
+            {
+              "id": "45398468",
+              "color": "2189",
+              "onHand": "0",
+              "d15": "82256"
+            },
+            {
+              "id": "45398469",
+              "color": "2189",
+              "onHand": "0",
+              "d15": "82257"
+            }
+          ],
+          "valuesSet": {
+            "d15": {
+              "u59561": [
+                "82253",
+                "82254",
+                "82255",
+                "82256",
+                "82257"
+              ]
+            }
+          },
+          "toggle": {},
+          "dimensionIdToTagToUnitAndValues": {},
+          "dimensionIdToName": {
+            "d15": "size"
+          },
+          "dimensionIdToUnitId": {
+            "d15": "u59561"
+          },
+          "unitIdToName": {
+            "u59561": "Men's Alpha Bottom Size"
+          },
+          "valueIdToName": {
+            "82253": {
+              "value": "SM",
+              "abbrValue": "SM"
+            },
+            "82254": {
+              "value": "MD",
+              "abbrValue": "MD"
+            },
+            "82255": {
+              "value": "LG",
+              "abbrValue": "LG"
+            },
+            "82256": {
+              "value": "XL",
+              "abbrValue": "XL"
+            },
+            "82257": {
+              "value": "2XL",
+              "abbrValue": "2XL"
+            }
+          },
+          "airplaneSizingByStockId": {
+            "45398465": [
+              {
+                "ageGroup": "adult",
+                "bodyType": "REGULAR",
+                "gender": "mens",
+                "heightType": "REGULAR",
+                "sizeHint": null,
+                "sizeLabel": "LG",
+                "sizeType": "standard",
+                "shoeType": null,
+                "stockId": "45398465",
+                "widthLabel": null
+              }
+            ],
+            "45398466": [
+              {
+                "ageGroup": "adult",
+                "bodyType": "REGULAR",
+                "gender": "mens",
+                "heightType": "REGULAR",
+                "sizeHint": null,
+                "sizeLabel": "MD",
+                "sizeType": "standard",
+                "shoeType": null,
+                "stockId": "45398466",
+                "widthLabel": null
+              }
+            ],
+            "45398467": [
+              {
+                "ageGroup": "adult",
+                "bodyType": "REGULAR",
+                "gender": "mens",
+                "heightType": "REGULAR",
+                "sizeHint": null,
+                "sizeLabel": "SM",
+                "sizeType": "standard",
+                "shoeType": null,
+                "stockId": "45398467",
+                "widthLabel": null
+              }
+            ],
+            "45398468": [
+              {
+                "ageGroup": "adult",
+                "bodyType": "REGULAR",
+                "gender": "mens",
+                "heightType": "REGULAR",
+                "sizeHint": null,
+                "sizeLabel": "XL",
+                "sizeType": "standard",
+                "shoeType": null,
+                "stockId": "45398468",
+                "widthLabel": null
+              }
+            ],
+            "45398469": [
+              {
+                "ageGroup": "adult",
+                "bodyType": "REGULAR",
+                "gender": "mens",
+                "heightType": "REGULAR",
+                "sizeHint": null,
+                "sizeLabel": "2XL",
+                "sizeType": "standard",
+                "shoeType": null,
+                "stockId": "45398469",
+                "widthLabel": null
+              }
+            ]
+          },
+          "convertedValueIdToValueId": {
+            "82253": "82253",
+            "82254": "82254",
+            "82255": "82255",
+            "82256": "82256",
+            "82257": "82257"
+          }
+        },
+        "videos": [],
+        "genders": [
+          "Men"
+        ],
+        "description": "<ul>\n<li><a href=\"/download/C/f/a/CfakepathToesOnTheNoseMENSsizechart.jpg\" class=\"popup-570-550\" target=\"_blank\">Toes on the Nose Size Chart</a> </li>\n<li>For those lazy days by the water, these Toes on the Nose&reg; Kelpfish Volley swim trumks will always be a stylish choice.</li>\n<li>Versatile short is crafted from a lightweight, stretch woven with a kelp design for effortless everyday wear. </li>\n<li>Comfortable four-way stretch with quick-dry properties keeps you cool and dry throughout the day. </li>\n<li>Antimicrobial fabrication provides lasting, continual protection against harmful microbes and is effective against stain and odor-causing bacteria. <br /></li>\n<li>UPF fabric helps protect your skin during outdoor activity by blocking harmful Ultraviolet A and Ultraviolet B rays (UVA and UVB).</li>\n<li>Stretch elasticized waist for a comfortable fit. </li>\n<li>On-seam hand pockets at the sides. </li>\n<li>Hidden side pocket at left hip. </li>\n<li>Shadowman logo at left hem. </li>\n<li>Lined with a lightweight compression brief short. </li>\n<li>87% polyester, 13% spandex. </li>\n<li>Machine wash, tumble dry. </li>\n<li>Made in the U.S.A and Imported. </li>\n<li class=\"measurements\">Measurements:\n<ul>\n    <li> Waist Measurement: 30 in</li>\n    <li> Outseam: 18 <sup>1</sup>&frasl;<sub>2</sub> in</li>\n    <li> Inseam: 8 in</li>\n    <li> Front Rise: 11 in</li>\n    <li> Back Rise: 16 in</li>\n    <li> Leg Opening: 11 in</li>\n    </ul>\n</li>\n<li>Product measurements were taken using size MD. Please note that measurements may vary by size.</li>\n<li>If you're not fully satisfied with your purchase, you are welcome to return any unworn, unwashed items in the original packaging with tags and if applicable, the protective adhesive strip intact. Note: Briefs, swimsuits and bikini bottoms should be tried on over underwear, without removing the protective adhesive strip. <strong>Returns that fail to adhere to these guidelines may be rejected.</strong></li>\n</ul>",
+        "brandId": "3451",
+        "zombie": false,
+        "overallRating": {},
+        "reviewCount": "0",
+        "productId": "9143855",
+        "sizeFit": {
+          "text": "Felt true to size",
+          "percentage": "0"
+        },
+        "widthFit": {
+          "percentage": "0",
+          "text": "Felt true to width"
+        },
+        "archFit": {
+          "text": "Moderate arch support",
+          "percentage": "0"
+        },
+        "vendorCode": null,
+        "brandName": "Toes on the Nose",
+        "productName": "Kelpfish Volley",
+        "productRating": "0",
+        "defaultSubCategory": "Swim Bottoms",
+        "styles": [],
+        "videoUrl": null,
+        "defaultProductType": "Clothing",
+        "defaultCategory": "Swimwear",
+        "defaultProductUrl": "/product/9143855",
+        "defaultImageUrl": "/images/z/4/5/2/8/6/6/4528665-p-DETAILED.jpg",
+        "oos": true,
+        "isReviewableWithMedia": true,
+        "isWearable": true,
+        "seo": {
+          "breadcrumbs": {
+            "zc1": "/clothing/CKvXAeICAQE.zso",
+            "zc2": "/swimwear/CKvXARDR1wHiAgIBAg.zso",
+            "brand": "/toes-on-the-nose/WgL7GuICAQs.zso"
+          }
+        }
+      }
+    ],
+    "ts": 1690692660619,
+    "baseUrl": "https://www.zappos.com"
+  }
