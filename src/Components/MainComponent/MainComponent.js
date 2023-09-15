@@ -29,8 +29,8 @@ function MainComponent() {
         <Route path='/history' element={navigator.onLine ? <HistorySection/> : <FourZeroFour title="You're Offline!" message="Oops! You're not connected with internet, kindly connect to the internet and try again."/>}></Route>
         <Route path='/developer' element={navigator.onLine ? <AboutDeveloper/> : <FourZeroFour title="You're Offline!" message="Oops! You're not connected with internet, kindly connect to the internet and try again."/>}></Route>
         <Route path='/cart' element={ <Cart/>  }></Route>
-        <Route path='/products/product' element={<CurrProduct/>}></Route>
-        <Route path='*' element={<FourZeroFour title={`${location.pathname} is not a component as yet!`}/>}></Route>
+        <Route path='/products/product' element={navigator.onLine ? <CurrProduct/> : <FourZeroFour title="You're Offline!" message="Oops! You're not connected with internet, kindly connect to the internet and try again."/>}></Route>
+        <Route path='*' element={<FourZeroFour title={`${location.pathname} is not the part of this app!`}/>}></Route>
            
       </Routes>
     </div>
